@@ -1,0 +1,54 @@
+license-key: ''
+
+messages:
+  no_player: '&cДанный игрок не найден.'
+  itemNotFound: '&cТакой предмет не найден.'
+  material_not_found: '&cМатериал яйца недоступен.'
+  successful_received: '&fВы &#7FFF00получили &fпредмет: {item}&f.'
+  usage: '&e/unityegg give &7<ник> <яйцо>'
+
+items:
+  creeper_egg:
+    material: CREEPER_SPAWN_EGG
+    displayName: '&#FFA500&lЗ&#FFA800&lа&#FFAA00&lг&#FFAD00&lа&#FFB000&lд&#FFB200&lо&#FFB500&lч&#FFB700&lн&#FFBA00&lо&#FFBD00&lе &#FFC200&lя&#FFC500&lй&#FFC700&lц&#FFCA00&lо &#FFCF00&lм&#FFD200&lо&#FFD400&lб&#FFD700&lа'
+    lore:
+      - ''
+      - '&7 ▪ &aКрипер &7- 2%'
+      - '&7 ▪ &#A9A9A9Скелет &7- 32,5%'
+      - '&7 ▪ &#228B22Зомби &7- 30%'
+      - '&7 ▪ &#FFA500Блейз &7- 15,5%'
+      - '&7 ▪ &#FFFF00Пчела &7- 20%'
+    mobs:
+      CREEPER:
+        sound: ENTITY_CREEPER_HURT
+        chance: 2.0
+      SKELETON:
+        sound: ENTITY_SKELETON_HURT
+        chance: 32.5
+      ZOMBIE:
+        sound: ENTITY_ZOMBIE_HURT
+        chance: 30.0
+      BLAZE:
+        sound: ENTITY_BLAZE_HURT
+        chance: 15.5
+      BEE:
+        sound: ENTITY_BEE_HURT
+        chance: 20.0
+  zombie_egg:
+    material: ZOMBIE_SPAWN_EGG
+    displayName: '&#00BFFFЗ&#00C2FFа&#00C6FFг&#00C9FFа&#00CCFFд&#00D0FFо&#00D3FFч&#00D7FFн&#00DAFFо&#00DDFFе &#00E4FFя&#00E7FFй&#00EBFFц&#00EEFFо &#00F5FFм&#00F8FFо&#00FCFFб&#00FFFFа'
+    lore:
+      - ''
+      - '&7 ▪ &#FF69B4Свинья &7- 40%'
+      - '&7 ▪ &#D2691EКорова &7- 100%'
+      - '&7 ▪ &#696969Паук &7- 20%'
+    mobs:
+      PIG:
+        sound: ENTITY_PIG_HURT
+        chance: 40.0
+      COW:
+        sound: ENTITY_SKELETON_HURT
+        chance: 100.0
+      SPIDER:
+        sound: ENTITY_SPIDER_HURT
+        chance: 20.0

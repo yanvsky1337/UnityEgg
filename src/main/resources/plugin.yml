@@ -1,0 +1,8 @@
+name: UnityEgg
+version: '${project.version}'
+main: me.yanvsky.unityegg.Main
+api-version: 1.16
+commands:
+  unityegg:
+    permission: unityegg.cmd.use
+    permission-message: [У вас нет прав.]
